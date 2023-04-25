@@ -1,4 +1,4 @@
-package browserfactory;
+package browsertesting;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class BaseTest {
-
     public static WebDriver driver;
 
     public void openBrowser(String baseURL) {
@@ -19,5 +18,6 @@ public class BaseTest {
     public void close() {//closing the browser
         driver.close();//using close method
     }
-}
 
+
+}
